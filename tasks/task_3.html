@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_3</title>
+    <style>
+        body {
+            padding: 40px;
+            background-color: #014242;
+        }
+        .date {
+            color: gray;
+        }
+        h1 {
+            font-size: 64px;
+            color: white;
+        }
+        .info{
+            display: flex;
+        }
+        img {
+            width: 100px;
+            margin: auto 20px;
+            float: left;
+        }
+        div.c_author, .coments, .published, .uploated {
+            color: grey;
+        }
+        .author, .comments, .date_of_published, .date_of_uploated{
+            margin: 30px;
+        }
+        .a_name, .go_com, .date_pub, .date_upl {
+            color: white;
+            font-size: 20px;
+        }
+        @media (max-width: 600px){
+            h1{
+                font-size: 48px;
+            }
+            .info {
+                flex-wrap: wrap;
+                margin: 15px;
+            }
+            .a_name, .go_com, .date_pub, .date_upl {
+                font-size: 14px;
+            }
+            div.c_author, .coments, .published, .uploated {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="date">Home / Articles /</div>
+    <h1>The Difference Between Responsive and Adaptive Design</h1>
+    <img src="./src/logo.png" alt="logo">
+    <div class="info">
+        <div class="author">
+            <div class="c_author">Author</div>
+            <div class="a_name">Geoff Graham</div>
+        </div>
+        <div class="comments">
+            <div class="coments">49 Comments</div>
+            <div class="go_com">Go to comments</div>
+        </div>
+        <div class="date_of_published">
+            <div class="published">Published</div>
+            <div class="date_pub">Nov 11, 2018</div>
+        </div>
+        <div class="date_of_uploated">
+            <div class="uploated">Uploated</div>
+            <div class="date_upl">Nov, 18, 2018</div>
+        </div>
+    </div>
+</body>
+</html>
