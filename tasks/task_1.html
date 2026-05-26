@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+    <Style>
+        body {
+            display: flex;
+            padding: 20px;
+        }
+        .upload {
+            display: flex;
+            margin: 1rem;
+            padding: 25px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        img {
+            height: 130px;
+        }
+        .progres_bar {
+            margin: 10px auto;
+            padding: 3px 5px;
+            border: 1px solid blue;
+            display: flex;
+            background: linear-gradient(to right, #7878ff75 40%, white 40%);
+            justify-content: space-between;
+        }
+        .submain {
+            display: flex;
+            flex-direction: column;
+            margin: auto 15px;
+        }
+        .done {
+            box-sizing: border-box;
+            border: 1px solid blue;
+            background-color: #0b0b9e;
+            color: white;
+            margin-bottom: 105px;
+            margin-top: 27px;
+            padding: 4px 30px;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        @media (max-width: 600px){
+            .upload{
+                display: flex;
+                flex-direction: column;
+            }
+            .done {
+                width: 100%;
+                margin: auto;
+            }
+        }
+    </Style>
+</head>
+<body>
+    <div class="upload">
+        <img src="https://files.svgcdn.io/f7/arrow-2-circlepath-circle.svg" alt="loading">
+        <div class="submain">
+            <div class="bar">
+            <div class="progres_bar">
+                <span class="text1">UPLOADING</span>
+                <span class="remaining">About 1 minutes</span>
+            </div>
+        </div>
+        <div class="title">Title of video</div>
+        <p>* Your video is still uploading. Please keep this page open until it’s done.</p>
+        </div>
+        <button class="done">Done</button>
+    </div>
+    
+</body>
+</html>
