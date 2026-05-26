@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin: 15px;
+        }
+        th, td {
+            /* border: 1px solid black; */
+            text-align: left;
+            padding: 5px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+        }
+        body{
+            display: flex;
+        }
+        .block_1 th{
+            padding: 5px;
+            width: 35%;
+        }
+        .block_2 th{
+            padding: 5px;
+            width: 35%;
+        }
+        th {
+            background-color: #37516b;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        td {
+            background-color: #dae4f0;
+        }
+        tr:last-child td:nth-last-child(1){
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .content{
+            width: 85%;
+        }
+        @media (min-width: 600px) and (max-width: 800px){
+            body {
+                flex-direction: column;
+            }
+            .menu{
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+            }
+        }
+        @media (max-width: 599px){
+            body {
+                flex-direction: column;
+            }
+            .menu {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Main</h1>
+        <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, inventore.
+        Ullam iste rem ratione quis non? Modi dolore expedita voluptatibus.
+        Quibusdam hic a, dolorem ad pariatur porro perferendis itaque vitae.
+        Consequatur ratione dolor odio veniam officia provident, ex quisquam? Vel?
+        Rem magni consequuntur harum eum! Totam veritatis dignissimos dolor tempore.
+        Odio maxime nemo delectus cumque, nostrum aliquam neque odit est.
+        Quidem eum, et optio expedita debitis eius voluptatibus reiciendis perferendis.
+        Eligendi deserunt architecto eveniet iure assumenda minus minima maiores natus?
+        Corrupti eligendi praesentium enim quas necessitatibus cumque. Itaque, dignissimos ipsa.
+        Architecto, fugit. Vero, sapiente aut blanditiis reprehenderit totam aliquid modi!
+        Illo ad quibusdam iste commodi ea in molestiae tempora eaque.
+        Aperiam quaerat fugit incidunt cumque, atque necessitatibus provident aspernatur fugiat.
+        Ipsam voluptates non exercitationem nostrum provident soluta mollitia vero id?
+        Doloribus suscipit unde quis enim, totam sit qui ab rerum!
+        Necessitatibus neque aliquid, facilis in vero fuga. Ipsam, mollitia rem.
+        Cum dolorem ratione velit magnam consequuntur vitae nesciunt distinctio optio?
+        Delectus ipsa iure ducimus eius corrupti nihil impedit exercitationem est.
+        Odit nihil animi ipsum iure illo corrupti repellendus quam porro!
+        Nisi, repellat incidunt nulla itaque praesentium recusandae amet atque ab.
+        Velit inventore quae nobis eaque sunt soluta perspiciatis sequi neque.
+        Deleniti ullam magni dolores esse doloribus! Laboriosam ipsa aspernatur sapiente?
+        Aspernatur quis voluptatibus vel numquam praesentium voluptas assumenda natus accusantium.
+        Doloremque quod voluptatibus nisi possimus suscipit consequuntur, natus eveniet reiciendis.
+        Numquam, nemo aliquam. Nemo porro modi nam repudiandae esse asperiores.
+        Quia fuga a corporis mollitia illum beatae voluptas, qui vel.
+        </div>
+        <h2>Submain</h2>
+        <div class="text">
+        Distinctio quia ullam ipsum deleniti corrupti in quaerat iusto ea!
+        Facere, nihil cumque in repellendus consequatur porro. Iusto, hic harum?
+        Ratione esse minima perspiciatis quo quas quisquam ipsum tempore enim!
+        Rem tenetur ducimus aliquam? Deleniti distinctio recusandae sunt velit nobis.
+        Error eum porro delectus autem earum similique nesciunt maxime nulla.
+        Assumenda incidunt pariatur nam impedit blanditiis voluptates repellat, earum expedita!
+        Ex qui dolorum ducimus odio temporibus id quam soluta reiciendis?
+        Est quidem error reiciendis nulla neque earum dolorum odio totam.
+        Aperiam necessitatibus corporis dolores dolore exercitationem nisi quo nesciunt officiis.
+        Quam sunt itaque suscipit, magni ullam ratione dolorem nulla voluptatum.
+        Dolores corporis tempora tempore distinctio minima cupiditate eaque corrupti soluta.
+        Eligendi odio odit iste vel sed, nobis autem impedit ad.
+        Praesentium blanditiis asperiores enim consectetur velit a illum, atque ullam!
+        Assumenda amet aut sint fuga eum accusamus mollitia expedita consectetur.
+        Nostrum maxime laboriosam illo quas dolores, aut quaerat asperiores soluta.
+        A voluptatum quo iure dolor sunt dicta dolore autem labore.
+        Dolorum veritatis dicta debitis vero illo molestiae libero esse distinctio!
+        Esse aliquid facilis minus reprehenderit nulla. Unde ex accusamus ut.
+        Rerum, neque. Qui, commodi explicabo est voluptate delectus ut! Corrupti.
+        Nam, porro animi ex molestias dolore earum. Incidunt, magnam odio?
+        Maiores placeat, recusandae ea doloremque dolores consequatur laboriosam animi quam.
+        Deleniti quidem fugiat, repellendus eligendi placeat optio atque veniam deserunt!
+        Sint deleniti temporibus id maxime iure tenetur quidem nihil accusamus?
+        Repudiandae assumenda, illum ex saepe suscipit sint cum aspernatur maxime?
+        Dicta molestiae, inventore distinctio omnis optio sunt repellat nihil corrupti?
+        </div>
+    </div>
+    <div class="menu">
+        <div class="block_1">
+            <table>
+                <tr>
+                    <th>Заголовок</th>
+                </tr>
+                <tr>
+                    <td>Quibusdam hic</td>
+                </tr>
+                <tr>
+                    <td>Doloribus suscipit unde quis enim</td>
+                </tr>
+                <tr>
+                    <td>A voluptatum quo</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="block_2">
+            <table>
+                <tr>
+                    <th>Заголовок</th>
+                </tr>
+                <tr>
+                    <td>Quibusdam hic</td>
+                </tr>
+                <tr>
+                    <td>A voluptatum quo</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
